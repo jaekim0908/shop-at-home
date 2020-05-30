@@ -10,19 +10,25 @@
     },
     {
       "route": "/api/discounts",
-      "allowedRoles": ["preferred"]
+      "allowedRoles": [
+        "preferred"
+      ]
     },
     {
       "route": "/api/x/*",
-      "allowedRoles": ["preferred"]
+      "allowedRoles": [
+        "preferred"
+      ]
     },
     {
       "route": "/api/*",
-      "allowedRoles": ["authenticated"]
+      "allowedRoles": [
+        "authenticated"
+      ]
     },
     {
       "route": "/*",
-      "serve": "/index.html",
+      "serve": "/404.html",
       "statusCode": 200
     }
   ],
