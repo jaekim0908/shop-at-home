@@ -24,7 +24,7 @@
     "@ngrx/store": "^9.0.0",
     "@ngrx/store-devtools": "^9.0.0",
     "bulma": "^0.8.0",
-    "core-js": "^3.6.4",
+    "core-js": "^3.13.1",
     "font-awesome": "^4.7.0",
     "minimist": "^1.2.5",
     "rxjs": "~6.5.4",
